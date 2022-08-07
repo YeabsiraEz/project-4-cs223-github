@@ -36,5 +36,36 @@ namespace project_4_cs223
         {
 
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void updateProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+             if (ActiveMdiChild != null) 
+            {
+                ActiveMdiChild.Close();
+            }
+            
+            
+            update form = new update();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+
+
+            delete form = new delete();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }

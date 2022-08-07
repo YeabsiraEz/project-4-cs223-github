@@ -17,7 +17,20 @@ namespace project_4_cs223.model
         public string count { get; set; }
         public string price { get; set; }
         public Boolean Availble { get; set; }
-        
+
+        public static List<save> findbyname(string name)
+        {
+            return saves.FindAll(s => s.objectname == name);
+
+        }
+        public static List<save> findbyPrice(string price)
+        {
+            return saves.FindAll(s => s.price == price);
+        }
+        public static List<save> getallproducts()
+        {
+            return saves;
+        }
         public void Save()
         {
             
@@ -28,8 +41,8 @@ namespace project_4_cs223.model
         {
          return saves;
         }
+        
 
-      
     }
 }
 
