@@ -29,6 +29,7 @@ namespace project_4_cs223
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(update));
             this.lbl_Oname = new System.Windows.Forms.Label();
             this.txt_oname = new System.Windows.Forms.TextBox();
             this.Search_btn = new System.Windows.Forms.Button();
@@ -205,6 +206,7 @@ namespace project_4_cs223
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btn_update);
             this.Controls.Add(this.txt_price1);

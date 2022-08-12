@@ -65,6 +65,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,18 @@
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="model\save.cs" />
+    <Compile Include="Pan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pan.Designer.cs">
+      <DependentUpon>Pan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="product _card.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="product _card.Designer.cs">
+      <DependentUpon>product _card.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="s\save.cs" />
@@ -90,8 +108,17 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pan.resx">
+      <DependentUpon>Pan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product _card.resx">
+      <DependentUpon>product _card.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +128,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="update.resx">
       <DependentUpon>update.cs</DependentUpon>
@@ -117,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-backgrounds-128292-582669-5455043.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,7 +16,7 @@ namespace project_4_cs223
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2());
+            Application.Run(new Pan());
         }
     }
 }

@@ -13,7 +13,6 @@ C:\Users\yeabi\source\repos\project 4 cs223\project 4 cs223\obj\Debug\project_4_
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\bin\Debug\project 4 cs223.exe.config
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\bin\Debug\project 4 cs223.exe
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\bin\Debug\project 4 cs223.pdb
-C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project 4 cs223.csproj.AssemblyReference.cache
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project_4_cs223.Form1.resources
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project_4_cs223.Form2.resources
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project_4_cs223.login.resources
@@ -24,3 +23,7 @@ C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project 4 cs223.pdb
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project_4_cs223.update.resources
 C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project_4_cs223.delete.resources
+C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project_4_cs223.product__card.resources
+C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project_4_cs223.Form3.resources
+C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project 4 cs223.csproj.AssemblyReference.cache
+C:\Users\yeabi\OneDrive\Documents\GitHub\project-4-cs223-github\project 4 cs223\project 4 cs223\obj\Debug\project_4_cs223.Pan.resources
