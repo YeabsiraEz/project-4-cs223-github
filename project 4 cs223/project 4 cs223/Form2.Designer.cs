@@ -33,9 +33,6 @@ namespace project_4_cs223
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addNewProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.catagoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -44,8 +41,7 @@ namespace project_4_cs223
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.productToolStripMenuItem,
-            this.catagoryToolStripMenuItem});
+            this.productToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -78,27 +74,6 @@ namespace project_4_cs223
             this.updateProductToolStripMenuItem.Text = "update product";
             this.updateProductToolStripMenuItem.Click += new System.EventHandler(this.updateProductToolStripMenuItem_Click);
             // 
-            // catagoryToolStripMenuItem
-            // 
-            this.catagoryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addToolStripMenuItem,
-            this.updateToolStripMenuItem});
-            this.catagoryToolStripMenuItem.Name = "catagoryToolStripMenuItem";
-            this.catagoryToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.catagoryToolStripMenuItem.Text = "catagory";
-            // 
-            // addToolStripMenuItem
-            // 
-            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.addToolStripMenuItem.Text = "add catagory";
-            // 
-            // updateToolStripMenuItem
-            // 
-            this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
-            this.updateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.updateToolStripMenuItem.Text = " update catagory";
-            // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
@@ -110,7 +85,8 @@ namespace project_4_cs223
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.searchToolStripMenuItem.Text = "search";
+            this.searchToolStripMenuItem.Text = "Display";
+            this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // Form2
             // 
@@ -136,9 +112,6 @@ namespace project_4_cs223
         private System.Windows.Forms.ToolStripMenuItem productToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addNewProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updateProductToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem catagoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
     }

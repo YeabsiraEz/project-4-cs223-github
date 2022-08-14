@@ -67,5 +67,18 @@ namespace project_4_cs223
             form.MdiParent = this;
             form.Show();
         }
+
+        private void searchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+
+
+            disall form = new disall();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }

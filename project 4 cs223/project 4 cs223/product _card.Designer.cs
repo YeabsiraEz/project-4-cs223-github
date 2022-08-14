@@ -44,6 +44,7 @@ namespace project_4_cs223
             this.label1.Size = new System.Drawing.Size(39, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Title";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -55,6 +56,7 @@ namespace project_4_cs223
             this.label2.TabIndex = 2;
             this.label2.Text = "Description";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 

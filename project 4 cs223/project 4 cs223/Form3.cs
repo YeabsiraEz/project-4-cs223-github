@@ -21,5 +21,10 @@ namespace project_4_cs223
         {
 
         }
+
+        private void product__card3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
