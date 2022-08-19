@@ -18,12 +18,12 @@ namespace project_4_cs223
         }
 
         private string _price;
-        
+
         public string price
         {
             get { return _price; }
             set { _price = value; label1.Text = value; }
-            
+
         }
         private string _dis;
 
@@ -48,6 +48,21 @@ namespace project_4_cs223
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void product__card_Load(object sender, EventArgs e)
+        {
+
+        }
+        public product__card(string title, string discription, string price)
+        {
+            InitializeComponent();
+            this.title = title;
+            this.discription = discription;
+            this.price = price;
+            
+
 
         }
     }

@@ -88,6 +88,7 @@ namespace project_4_cs223
             this.Controls.Add(this.label1);
             this.Name = "product__card";
             this.Size = new System.Drawing.Size(311, 204);
+            this.Load += new System.EventHandler(this.product__card_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

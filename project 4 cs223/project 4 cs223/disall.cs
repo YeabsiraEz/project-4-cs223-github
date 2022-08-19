@@ -20,24 +20,32 @@ namespace project_4_cs223
 
         private void btn_view_Click(object sender, EventArgs e)
         {
-            product__card p = new product__card();
-           flowLayoutPanel1.Controls.Clear();
-            foreach (var item in save.getallproducts())
-            {
-
-
-                p.price = item.objectname;
-                p.discription = item.number;
-                p.title = item.price;
-
-                flowLayoutPanel1.Controls.Add(p);
-            }
+           
             
             
                 
                
 
             
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void disall_Load(object sender, EventArgs e)
+        {
+          
+            flowLayoutPanel1.Controls.Clear();
+            foreach (var item in save.getallproducts())
+            {
+                product__card p = new product__card(item.objectname, item.number, item.price);
+
+                
+
+                flowLayoutPanel1.Controls.Add(p);
+            }
         }
     }
 }
