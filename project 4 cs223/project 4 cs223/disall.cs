@@ -41,11 +41,20 @@ namespace project_4_cs223
             foreach (var item in save.getallproducts())
             {
                 product__card p = new product__card(item.objectname, item.number, item.price);
+                p.Click += (object o, EventArgs e2) =>
+                {
+                    MessageBox.Show(item.price);
+                };
 
-                
+
 
                 flowLayoutPanel1.Controls.Add(p);
             }
+        }
+        private void custom (object o, EventArgs e)
+        {
+            
+            MessageBox.Show("clicked");
         }
     }
 }

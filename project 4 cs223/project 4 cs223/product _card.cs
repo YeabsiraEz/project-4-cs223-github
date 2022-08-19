@@ -58,9 +58,9 @@ namespace project_4_cs223
         public product__card(string title, string discription, string price)
         {
             InitializeComponent();
-            this.title = title;
+            this.title = price;
             this.discription = discription;
-            this.price = price;
+            this.price = title;
             
 
 
