@@ -17,22 +17,22 @@ namespace project_4_cs223
             InitializeComponent();
         }
 
-        private string _price;
+        private string _price,_dis,_title;
 
         public string price
         {
             get { return _price; }
-            set { _price = value; label1.Text = value; }
+            set { _price = value; label1.Text =value; }
 
         }
-        private string _dis;
+        
 
         public string discription
         {
             get { return _dis; }
             set { _dis = value; label2.Text = value; }
         }
-        private string _title;
+      
 
         public string title
         {

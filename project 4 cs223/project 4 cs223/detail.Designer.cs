@@ -49,7 +49,7 @@ namespace project_4_cs223
             // back_btn
             // 
             this.back_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back_btn.Location = new System.Drawing.Point(339, 351);
+            this.back_btn.Location = new System.Drawing.Point(340, 328);
             this.back_btn.Margin = new System.Windows.Forms.Padding(2);
             this.back_btn.Name = "back_btn";
             this.back_btn.Size = new System.Drawing.Size(68, 31);

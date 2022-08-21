@@ -45,12 +45,12 @@ namespace project_4_cs223
                 {
                    
                     detail d = new detail();
-                    d.title = item.objectname;
+                    d.object_name = item.objectname;
+                    d.price = item.price;
                     d.date = item.date.ToString();
-                    d.price = item.price.ToString();
-                    d.number = item.number.ToString();
-                    d.count = item.count.ToString();
-                    d.inventoryNumber = item.inventoryNumber.ToString();
+                    d.number = item.number;
+                    d.count = item.count;
+                    d.inventoryNumber = item.inventoryNumber;
                     d.Show();
                 };
 
@@ -63,6 +63,11 @@ namespace project_4_cs223
         {
             
             MessageBox.Show("clicked");
+        }
+
+        private void product__card1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

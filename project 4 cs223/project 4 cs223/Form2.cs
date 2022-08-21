@@ -29,7 +29,9 @@ namespace project_4_cs223
             
             Form1 form = new Form1();
             form.MdiParent = this;
+            pictureBox1.Hide();
             form.Show();
+            pictureBox1.Show();
         }
 
         private void productToolStripMenuItem_Click(object sender, EventArgs e)
@@ -52,7 +54,11 @@ namespace project_4_cs223
             
             update form = new update();
             form.MdiParent = this;
+            pictureBox1.Hide();
             form.Show();
+            pictureBox1.Show();
+           
+            
         }
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -65,7 +71,10 @@ namespace project_4_cs223
 
             delete form = new delete();
             form.MdiParent = this;
+            pictureBox1.Hide();
             form.Show();
+           
+            
         }
 
         private void searchToolStripMenuItem_Click(object sender, EventArgs e)
@@ -78,7 +87,18 @@ namespace project_4_cs223
 
             disall form = new disall();
             form.MdiParent = this;
+            pictureBox1.Hide();
             form.Show();
+            
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+
+            
         }
     }
-}
+ }
+

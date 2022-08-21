@@ -30,9 +30,9 @@ namespace project_4_cs223
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.product__card1 = new project_4_cs223.product__card();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.product__card1 = new project_4_cs223.product__card();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -50,23 +50,13 @@ namespace project_4_cs223
             this.flowLayoutPanel1.WrapContents = false;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
-            // product__card1
-            // 
-            this.product__card1.discription = "";
-            this.product__card1.Location = new System.Drawing.Point(3, 3);
-            this.product__card1.Name = "product__card1";
-            this.product__card1.price = null;
-            this.product__card1.Size = new System.Drawing.Size(311, 204);
-            this.product__card1.TabIndex = 0;
-            this.product__card1.title = null;
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(222, 450);
+            this.panel1.Size = new System.Drawing.Size(241, 450);
             this.panel1.TabIndex = 1;
             // 
             // label2
@@ -78,6 +68,16 @@ namespace project_4_cs223
             this.label2.Size = new System.Drawing.Size(71, 24);
             this.label2.TabIndex = 0;
             this.label2.Text = "view all";
+            // 
+            // product__card1
+            // 
+            this.product__card1.discription = null;
+            this.product__card1.Location = new System.Drawing.Point(3, 3);
+            this.product__card1.Name = "product__card1";
+            this.product__card1.price = null;
+            this.product__card1.Size = new System.Drawing.Size(311, 204);
+            this.product__card1.TabIndex = 0;
+            this.product__card1.title = null;
             // 
             // disall
             // 

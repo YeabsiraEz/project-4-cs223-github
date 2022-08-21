@@ -16,7 +16,7 @@ namespace project_4_cs223
         {
             InitializeComponent();
         }
-        public String title
+        public String object_name
         {
             get { return lbl_tit.Text; }
             set { lbl_tit.Text = value; }
