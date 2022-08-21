@@ -43,7 +43,15 @@ namespace project_4_cs223
                 product__card p = new product__card(item.objectname, item.number, item.price);
                 p.Click += (object o, EventArgs e2) =>
                 {
-                    MessageBox.Show(item.price);
+                   
+                    detail d = new detail();
+                    d.title = item.objectname;
+                    d.date = item.date.ToString();
+                    d.price = item.price.ToString();
+                    d.number = item.number.ToString();
+                    d.count = item.count.ToString();
+                    d.inventoryNumber = item.inventoryNumber.ToString();
+                    d.Show();
                 };
 
 
